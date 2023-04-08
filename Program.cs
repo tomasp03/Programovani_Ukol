@@ -11,7 +11,7 @@ namespace ProgUkol
         
         static void Main(string[] args)
         {
-           // Heslo heslo = new Heslo();
+            Heslo heslo = new Heslo();
             Prevodnik prevodnik = new Prevodnik(10000, 2, 8);
             Console.ReadLine();
         }

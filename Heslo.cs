@@ -70,7 +70,6 @@ namespace ProgUkol
                 Console.WriteLine("Zadna 2 stejna pismena za sebou!");
             else
                 Console.WriteLine("Heslo splňuje všechna kritéria.");
-
         }
 
         public Heslo()

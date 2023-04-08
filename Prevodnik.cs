@@ -42,7 +42,6 @@ namespace ProgUkol
             this.zakladZ = zakladZ;
             this.zakladDo = zakladDo;
             this.Vysledek = DoPozadovane(DoDesitkove(prevadene, 0));
-            Console.WriteLine(DoDesitkove(prevadene, 0));
             Console.WriteLine(this.Vysledek);
         }
     }
