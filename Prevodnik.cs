@@ -41,7 +41,10 @@ namespace ProgUkol
         {
             this.zakladZ = zakladZ;
             this.zakladDo = zakladDo;
-            this.Vysledek = DoPozadovane(DoDesitkove(prevadene, 0));
+            if (this.zakladDo == 10)
+                this.Vysledek = DoDesitkove(prevadene, 0).ToString();
+            else
+                this.Vysledek = DoPozadovane(DoDesitkove(prevadene, 0));
             Console.WriteLine(this.Vysledek);
         }
     }
